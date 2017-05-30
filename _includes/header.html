@@ -1,10 +1,10 @@
 <div id="header">
   <h1>
-    <a id="sitename" href="{{site.baseurl}}">{{site.title}}</a>
+    <a id="sitename" href="{{site.baseurl}}"><span itemprop="name">
+        {{site.title}}</span></a>
   </h1>
 
-  <!-- Add something about you in p tag-->
-  <p>{{ site.header }}</p>
+  <p itemprop="description">{{ site.header }}</p>
   <hr/>
 
   <span class="credits pull-left">
